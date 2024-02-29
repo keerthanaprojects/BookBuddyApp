@@ -84,6 +84,7 @@ class _HomePageState extends State<HomePage> {
             IconButton(
               icon: Icon(Icons.person),
               onPressed: () {
+                _loadUsername();
                 usernameCheck != "NO USERNAME"
                     ? Navigator.push(
                         context,
